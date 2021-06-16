@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    {{>header}}
+</head>
+
+<body>
+    {{>navbar}}
+    <!-- start main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 max-auto">
+                <div class="row">
+                    <!-- left side div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg"">
+                            <img src="images/404-bg.png"  alt="Rajeev K. Varshney" class="img-fluid">
+                        </figure>
+                        <p>Welcome to Rajeev K. Varshney World App</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button class="">Go Back</button></a>
+                    </div>
+                    <!-- right side div -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end main header -->
+    <!-- start footer code -->
+      {{>footer}}
+    <!-- end footer code -->
+</body>
+
+</html>
